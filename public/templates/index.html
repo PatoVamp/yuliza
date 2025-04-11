@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Retroverse</title>
+</head>
+<body>
+    <header>
+        <div class="container-circle">
+            <div class="circleDecoration" data-color="#d34abc"></div>
+            <div class="circleDecoration" data-color="yellow"></div>
+            <div class="circleDecoration" data-color="red"></div>
+        </div>
+        <a href="" class="title-header">Retroverse</a>
+        <div class="menu">
+            <div class="itemMen">
+                <i class="bi bi-info-circle-fill"></i><span>Información</span>
+                <div class="contentText">
+
+                    <section id="historia">
+                        <h2 class="title-content">HISTORIA</h2>
+                        <p>Retroverse combina la pasión por los videojuegos clásicos con el deseo de ayudar a los animales en situación de calle. La plataforma permite a los gamers disfrutar de títulos retro mientras contribuyen a una causa solidaria, uniendo el entretenimiento con el impacto social.</p>
+                    </section>
+
+                    <section id="quienesSomos"> 
+                        <h2 class="title-content">QUIÉNES SOMOS</h2>
+                        <p>Retroverse une la pasión por los videojuegos retro con la solidaridad animal. A través de nuestra plataforma, los jugadores disfrutan de títulos clásicos mientras apoyan refugios y organizaciones, asegurando un impacto real en la vida de los animales en situación de calle.</p>
+                    </section>
+
+                    <section id="mision">
+                        <h2 class="title-content">MISIÓN</h2>
+                        <p>Ofrece una plataforma donde los amantes de los videojuegos retro disfrutan su pasión mientras ayudan a animales en situación de calle, apoyando refugios, alimentación y adopción responsable mediante donaciones y colaboraciones.</p>
+                    </section>
+
+                    <section id="vision">
+                        <h2 class="title-content">VISIÓN</h2>
+                        <p>Busca ser un referente en la unión del entretenimiento digital y la ayuda social, creando una comunidad solidaria donde los videojuegos impulsen el cambio y ningún animal sufra abandono.</p>
+                    </section>
+                </div>
+            </div>
+            <div class="itemMen">
+                <i class="bi bi-chat-left-dots-fill"></i><span>Como Ayudar</span>
+                <div class="contentText">
+
+                    <section id="jugandoCompartiendo">
+                        <h2 class="title-content">🎮 Jugando y compartiendo</h2>
+                        <p>Disfruta de nuestros videojuegos retro y ayuda a difundir nuestra iniciativa en redes sociales. Cuantas más personas nos conozcan, mayor será el impacto.</p>
+                    </section>
+
+                    <section id="eventos">
+                        <h2 class="title-content">🏆 Participando en eventos benéficos</h2>
+                        <p>Únete a nuestros torneos y desafíos, donde cada inscripción o logro puede traducirse en apoyo directo para los refugios.</p>
+                    </section>
+
+                    <section id="donaciones">
+                        <h2 class="title-content">🎁 Donaciones y colaboraciones</h2>
+                        <p>Si eres creador de contenido, refugio animal o empresa, podemos trabajar juntos para ampliar el alcance de nuestra misión.</p>
+                    </section>
+
+                    <section id="voluntariado">
+                        <h2 class="title-content">📢 Voluntariado y adopciones</h2>
+                        <p>Apoya a los refugios afiliados con tu tiempo o considera darle un hogar a un animal en busca de familia.</p>
+                        <video class="gif" src="../assets/video/perritos.mp4" autoplay loop></video>
+                    </section>
+                </div>
+            </div>
+            <div class="itemMen">
+                <i class="bi bi-controller"></i><span>Jugar</span>
+                <div class="contentText">
+                    <div class="game-area">
+                        <div class="target-game">
+                            <div>
+                                <a class="target-game-link" href="https://www.retrogames.cc/search?q=MARIO+BROS&system=" target="_blank">
+                                    <img class="games-img" src="../assets/image/mario1980.png" alt="Imagen del juego">
+                                    <i class="bi bi-play-fill"></i>
+                                </a>
+                                <h2>MARIO BROS</h2>
+                            </div>
+                            <div class="target-game-description-container">
+                                <h3 class="target-game-description">Descripción</h3>
+                                <p class="target-game-description-text">Creador: Nintendo (1985)
+                                    Personajes principales: Mario y Luigi, dos hermanos fontaneros.
+                                    Características: Juego de plataformas donde los jugadores controlan a Mario y Luigi para salvar el Reino Champiñón.
+                                    Poder: Usan hongos para crecer, flores de fuego para lanzar bolas de fuego y estrellas para volverse invencibles.
+                                    Meta: Rescatar a la Princesa Peach de las garras de Bowser.
+                                    Enemigos: Bowser, Goombas, Koopa Troopas, Lakitus y más.
+                                    Amigos: Princesa Peach y Toad, quienes ayudan a los hermanos en su aventura.</p>      
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itemMen">
+                <i class="bi bi-globe-americas"></i><span>Comunidad</span>
+                <div class="contentText">
+
+                    <section id="noticias">
+                        <h2 class="title-content">Noticias</h2>
+                        <img class="games-img" src="../assets/image/NOTICIAS.png"
+                    
+        
+                    </section>
+
+                    <section id="comentarios"> 
+                        <h2 class="title-content">Comentarios</h2>
+                    
+                        <div class="centrar-form">
+                            <form action="/comentarios" method="POST" class="comment-form">
+                                <div class="form-group">
+                                    <label for="usuario">Nombre:</label>
+                                    <input type="text" id="usuario" name="usuario" required>
+                                </div>
+                                <div class="form-group2">
+                                    <label for="comentario">Comentario:</label>
+                                    <textarea id="comentario" name="comentario" required></textarea>
+                                </div>
+                              <button class="comment-button" type="submit">Enviar</button>
+                            </form>                          
+                        </div>
+                        <table class="table-modal">
+                          <thead>
+                            <tr>
+                              <th>Usuario</th>
+                              <th>Comentario</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {% for usuario, comentario in comentarios %}
+                            <tr class="tbody">
+                              <td><i class="bi bi-person-circle icon-person"></i>{{ usuario }}</td>
+                              <td>{{ comentario }}</td>
+                            </tr>
+                            {% endfor %}
+                          </tbody>
+                        </table>
+                    </section>                                         
+                </div>
+            </div>
+            <div class="itemMen">
+                <i class="bi bi-cash-stack"></i><span>DonacionEs</span>
+                <div class="contentText">
+                    <div class="donation-box">
+                        <div class="donation-image">
+                          <img src="../assets/image/sad.jpg" alt="Perrito triste">
+                        </div>
+                      
+                        <form class="donation-form" onsubmit="mostrarGracias(event)">
+                          <h3>Apoya con una donación</h3>
+                      
+                          <label for="nombre">Nombre:</label>
+                          <input type="text" id="nombre" name="nombre" required>
+                      
+                          <label for="correo">Correo:</label>
+                          <input type="email" id="correo" name="correo" required>
+                      
+                          <label for="monto">Cantidad (USD):</label>
+                          <input type="number" id="monto" name="monto" required min="1">
+                      
+                          <label for="metodo">Método de pago:</label>
+                          <select id="metodo" name="metodo" required>
+                            <option value="paypal">PayPal</option>
+                            <option value="nequi">Nequi</option>
+                            <option value="daviplata">Daviplata</option>
+                          </select>
+                      
+                          <button type="submit">Donar</button>
+                        </form>
+                    </div>
+                      
+                    <div id="modal-donacion-gracias" class="modal-donacion">
+                        <div class="modal-donacion-content">
+                          <h2>¡Gracias por tu donación! 🐾</h2>
+                          <p>Tu aporte significa mucho para nosotros y nuestros peluditos 💖</p>
+                          <button id="cerrar-modal-donacion">Cerrar</button>
+                        </div>
+                    </div>                                           
+                </div>
+            </div>
+        </div>
+        <div class="container-circle">
+            <div class="circleDecoration" data-color="red"></div>
+            <div class="circleDecoration" data-color="yellow"></div>
+            <div class="circleDecoration" data-color="#d34abc"></div>
+        </div>
+</header>
+<main>
+    <div class="bgFill"></div>
+  
+    <div class="center">
+        <div class="about">
+            <div class="qh"> 
+                <p class="qh1">¿Qué hacemos?</p>
+                <p class="qh2">
+                    Fomentar la pasión por los videojuegos retro mientras se genera un impacto positivo en la vida de los animales en situación de calle, creando una comunidad solidaria donde el entretenimiento se convierta en una herramienta para el bienestar animal.
+                </p>
+            </div>
+        <img src="../assets/image/unnamed.png" alt="Logo Retroverse" />
+      </div>
+    </div>
+  </main>  
+    <div id="Modal">
+        <i class="bi bi-arrow-left-square-fill btn-back"></i>
+        <nav></nav>
+        <div class="contentModal">
+
+        </div>
+    </div>
+    <script src="../script/circleColor.js"></script>
+    <script src="../script/index.js"></script>
+</body>
+</html>
