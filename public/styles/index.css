@@ -973,4 +973,21 @@ section #noticias :hover {
         gap: 1rem; /* Ajustar el espacio entre los contenedores de juego */
     }
 }
+/* Media Query para pantallas de hasta 1600px de ancho (aproximadamente 1600x900) */
+@media (min-width: 1201px) and (max-width: 1800px) {
+    .menu {
+        gap: 3rem; /* Ligeramente menor gap que en resoluciones mayores */
+    }
 
+    .itemMen {
+        gap: 0.4rem; /* Ligeramente menor gap entre icono y texto */
+    }
+
+    .itemMen i {
+        font-size: 1.8rem; /* Ligeramente menor tamaño del icono */
+    }
+
+    .itemMen span {
+        font-size: 0.9rem; /* Ligeramente menor tamaño del texto */
+    }
+}
