@@ -636,3 +636,341 @@ section #noticias :hover {
     }
 }
 
+/* Para tablets (ancho máximo de 768px) */
+@media (max-width: 1000px) {
+    .title-header {
+        font-size: 1.5rem;
+        margin-right: auto; /* Para que los círculos se peguen a la derecha */
+    }
+
+    .container-circle {
+        width: auto;
+        gap: 0.5rem;
+    }
+
+    .circleDecoration {
+        width: 20px;
+        height: 20px;
+        margin: 0 3px;
+    }
+
+    .menu {
+        flex-direction: column; /* Apilar los items del menú */
+        align-items: stretch; /* Ocupar todo el ancho disponible */
+        gap: 0.75rem; /* Reducir el espacio entre items */
+        padding: 10px; /* Añadir un poco de padding al contenedor del menú */
+        height: auto; /* Ajustar la altura automáticamente */
+    }
+
+    .itemMen {
+        justify-content: space-between; /* Espaciar el icono y el texto */
+        margin-bottom: 8px; /* Añadir un poco de margen inferior entre items */
+    }
+
+    .itemMen span {
+        font-size: 0.9rem; /* Reducir el tamaño del texto */
+    }
+
+    .itemMen i {
+        font-size: 1.3rem; /* Reducir el tamaño del icono */
+    }
+
+    #Modal {
+        padding: 20px;
+        margin-top: 0;
+        top: 60px; /* Ajustar para el header fijo */
+        height: auto;
+        min-height: calc(100vh - 60px);
+        position: fixed;
+    }
+
+    #Modal nav {
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    #Modal nav button {
+        font-size: 1rem;
+        padding: 5px 10px;
+        margin-bottom: 5px;
+    }
+
+    .comment-section {
+        width: 95%;
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    .comment-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .comment-section input,
+    .comment-section textarea,
+    .comment-section button {
+        font-size: 0.9rem;
+    }
+
+    .comment-form {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .form-group input,
+    .form-group2 textarea {
+        width: 100%;
+        max-width: none;
+    }
+
+    .comment-button {
+        width: 100%;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin-top: 100px;
+    }
+
+    .about img {
+        max-width: 80%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .qh {
+        width: 90%;
+        padding: 20px;
+        height: auto;
+    }
+
+    .qh1 {
+        font-size: 32px;
+    }
+
+    .qh2 {
+        font-size: 20px;
+        height: auto;
+    }
+
+    .donation-box {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 15px;
+    }
+
+    .donation-image img {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .donation-form {
+        max-width: 100%;
+    }
+
+    .game-area {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        margin-top: 10%;
+    }
+
+    .games-img {
+        width: 80%;
+        max-width: none;
+    }
+
+    .game-area {
+        flex-direction: column; /* Apilar los elementos de juego */
+        align-items: center; /* Centrar los elementos */
+        gap: 1.5rem; /* Espacio entre los elementos apilados */
+        margin-top: 10%; /* Ajustar el margen superior */
+    }
+
+    .games-img {
+        width: 80%; /* Ocupar un mayor ancho */
+        max-width: none; /* Eliminar el ancho máximo para que sea responsive */
+        height: auto; /* Ajustar la altura automáticamente */
+    }
+
+    .target-game-link {
+        width: 80%; /* Ocupar un mayor ancho */
+    }
+
+    .target-game {
+        flex-direction: row; /* Volver a disposición horizontal si es apropiado */
+        align-items: center; /* Alinear verticalmente */
+        text-align: left; /* Alinear el texto a la izquierda */
+        padding: 15px; /* Ajustar el padding */
+        gap: 1rem; /* Ajustar el espacio entre elementos */
+    }
+
+    .target-game img {
+        max-width: 150px; /* Limitar el ancho de la imagen */
+        height: auto;
+    }
+
+    #targetContainer {
+        overflow-x: auto; /* Permitir desplazamiento horizontal si los juegos no caben */
+        padding-bottom: 10px; /* Espacio para la barra de desplazamiento */
+    }
+}
+
+/* Para dispositivos móviles (ancho máximo de 600px) */
+@media (max-width: 600px) {
+    .title-header {
+        font-size: 1.2rem;
+    }
+
+    .container-circle {
+        width: auto;
+        gap: 0.3rem;
+    }
+
+    .circleDecoration {
+        width: 15px;
+        height: 15px;
+        margin: 0 2px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.75rem;
+    }
+
+    .itemMen {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .itemMen span {
+        font-size: 0.9rem;
+    }
+
+    .itemMen i {
+        font-size: 1.5rem;
+    }
+
+    #Modal {
+        padding: 15px;
+        top: 50px; /* Ajustar para el header fijo */
+        height: auto;
+        min-height: calc(100vh - 50px);
+    }
+
+    #Modal .title-content {
+        font-size: 1.5rem;
+    }
+
+    #Modal p {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    #Modal nav {
+        gap: 1rem;
+    }
+
+    #Modal nav button {
+        font-size: 0.9rem;
+        padding: 4px 8px;
+    }
+
+    .comment-section {
+        width: 98%;
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+    .comment-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .comment-section input,
+    .comment-section textarea,
+    .comment-section button {
+        font-size: 0.8rem;
+    }
+
+    .comment-form {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .tbody {
+        font-size: 1rem;
+    }
+
+    .icon-person {
+        margin-right: 10px;
+        font-size: 1.2rem;
+    }
+
+    .form-group label,
+    .form-group2 label {
+        font-size: 0.9rem;
+    }
+
+    .comment-button {
+        font-size: 0.9rem;
+    }
+
+    .about {
+        margin-top: 80px;
+        padding: 15px;
+    }
+
+    .about img {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .qh {
+        width: 95%;
+        padding: 15px;
+        border-radius: 60px;
+    }
+
+    .qh1 {
+        font-size: 24px;
+    }
+
+    .qh2 {
+        font-size: 16px;
+    }
+
+    .donation-box {
+        padding: 10px;
+    }
+
+    .game-area {
+        margin-top: 15%; /* Ajustar el margen superior */
+    }
+
+    .games-img {
+        width: 95%; /* Ocupar casi todo el ancho */
+    }
+
+    .target-game-link {
+        width: 95%; /* Ocupar casi todo el ancho */
+    }
+
+    .target-game {
+        flex-direction: column; /* Apilar los elementos del juego */
+        align-items: center; /* Centrar los elementos */
+        text-align: center; /* Centrar el texto */
+        padding: 10px; /* Reducir el padding */
+        gap: 1rem; /* Ajustar el espacio entre elementos */
+    }
+
+    .target-game img {
+        max-width: 100%; /* La imagen ocupa todo el ancho */
+    }
+
+    #targetContainer {
+        gap: 1rem; /* Ajustar el espacio entre los contenedores de juego */
+    }
+}
+
